@@ -13,7 +13,7 @@
 
 <body>
     <h1>Calculator</h1>
-    <form action="/calculate" method="post">
+    <form action="/calculate" method="post" id="calculator">
         <input type="number" id="num1">
         <select name="operatorSelector" id="operatorSelector" multiple="multiple">
             <option value="+">+</option>
@@ -24,6 +24,9 @@
         <input type="number" id="num2">
         <input type="submit" value="CALCULATE!">
     </form>
+    <ul id="historyList">
+
+    </ul>
 </body>
 
 </html>
