@@ -2,6 +2,7 @@ $(document).ready(function () {
   console.log("ready!");
   getHistory();
   $("#calculator").on("submit", calculate);
+  $("#clear").on("click", clearInputs);
 });
 
 function calculate(evt) {

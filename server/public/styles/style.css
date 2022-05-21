@@ -21,5 +21,7 @@
     cursor: pointer;
     border: black solid 1px;
     border-radius: 5px;
-    color: rgb(204, 204, 0);
+    color: black;
   }
+
+  /* from stack overflow https://stackoverflow.com/questions/52707749/how-can-i-display-select-options-as-buttons*/
